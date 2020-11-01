@@ -76,7 +76,7 @@
 
 header,
 main {
-  font-family: 'Helvetica-Neue-Light';
+  font-family: 'Helvetica-Neue-Light', Helvetica, arial, sans-serif;
 }
 
 .hoverbtn:hover {
@@ -100,7 +100,7 @@ main {
 
 .titleone {
   font-size: 24px;
-  font-family: 'Helvetica-Neue-Bold';
+  font-family: 'Helvetica-Neue-Bold',Helvetica, arial, sans-serif;
 }
 
 .printers,
@@ -137,7 +137,7 @@ main {
 /* Main products - hot ads */
 
 .hot-ads {
-  font-family: 'Helvetica-Neue-Medium';
+  font-family: 'Helvetica-Neue-Medium', Helvetica, arial, sans-serif;
 }
 
 .gen-info {
@@ -151,7 +151,7 @@ main {
 /* Gallery */
 
 .card-text {
-  font-family: 'Helvetica-Neue-Bold';
+  font-family: 'Helvetica-Neue-Bold', Helvetica, arial, sans-serif;
 }
 
 .price {
@@ -160,7 +160,7 @@ main {
 }
 
 .price:hover {
-  background-color: #888888;
+  background-color: #888;
 }
 
 .base-btns {
