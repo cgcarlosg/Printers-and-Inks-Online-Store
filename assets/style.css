@@ -2,31 +2,31 @@
   box-sizing: border-box;
 }
 
-/*Fonts to be used*/
+/* Fonts to be used */
 
 @font-face {
   font-family: 'Gotham-Bold';
   src: url(./Gotham/Gotham-Bold.otf);
 }
-  
+
 @font-face {
   font-family: 'Gotham-Rounded-Light';
-  src: url(./GothamRoundedLight/Gotham\ Rounded\ Light.otf)
+  src: url(./GothamRoundedLight/Gotham\ Rounded\ Light.otf);
 }
 
 @font-face {
   font-family: 'Helvetica-Neue-Light';
   src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 45\ Light.ttf);
 }
-  
+
 @font-face {
   font-family: 'Helvetica-Neue-Medium';
-  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 65\ Medium.ttf)
+  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 65\ Medium.ttf);
 }
 
 @font-face {
   font-family: 'Helvetica-Neue-Bold';
-  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 75\ Bold.ttf)
+  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 75\ Bold.ttf);
 }
 
 /* Colors to be used in the site */
@@ -44,7 +44,7 @@
 }
 
 .bckg-gray {
-  background-color: #888888;
+  background-color: #888;
 }
 
 .bckg-white {
@@ -58,9 +58,9 @@
 .fonts-dark {
   color: #383838;
 }
-  
+
 .fonts-gray {
-  color: #888888 !important;
+  color: #888 !important;
 }
 
 .fonts-white {
@@ -80,7 +80,7 @@ main {
 }
 
 .hoverbtn:hover {
-  background-color: #888888 !important;
+  background-color: #888 !important;
 }
 
 .hoversgn:hover {
@@ -107,7 +107,7 @@ main {
 .search-cont-btn,
 .search-btn {
   width: 60%;
-  height:35px;
+  height: 35px;
 }
 
 .search-cont-btn {
@@ -121,8 +121,8 @@ main {
 
 @media (min-width: 768px) {
   .printers {
-  width: 99%;
-  height: 40px;
+    width: 99%;
+    height: 40px;
   }
 
   .search-cont-btn,
@@ -175,7 +175,7 @@ main {
 .category-description {
   font-size: 16px;
 }
- 
+
 .arrow-r {
   margin-top: 25%;
   margin-left: 95%;
@@ -228,7 +228,7 @@ main {
 
 @media (max-width: 767px) {
   .title {
-   margin-left: 25%;
+    margin-left: 25%;
   }
 
   .lists {
@@ -237,5 +237,5 @@ main {
 
   .copyright {
     margin-left: 7%;
- }
+  }
 }
