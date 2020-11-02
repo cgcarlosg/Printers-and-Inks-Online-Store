@@ -131,6 +131,7 @@ main {
     display: flex;
     justify-content: start;
     height: 40px;
+    font-size: 15px;
   }
 }
 
