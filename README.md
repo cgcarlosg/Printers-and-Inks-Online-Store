@@ -1,8 +1,9 @@
 # HTML-CSS-CapstoneProject
 
 The online store made as a final Microver html-css project. This shows two pages in which the design given by the author Mohammed Awad was followed and customized for a printer sales store, testing the best front-end practices.
+It was used bootstrap as the main framework, the site also was built with media queries and it is completely responsive in two screen sizes.
 
-![screenshot]()
+![screenshot](https://github.com/cgcarlosg/Printers-and-Inks-Online-Store/blob/Feature/assets/screenshot.jpg)
 
 
 ## Built With
@@ -14,7 +15,8 @@ The online store made as a final Microver html-css project. This shows two pages
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link]( https://cgcarlosg.github.io/Printers-and-Inks-Online-Store/)
+[Demo Video](https://www.loom.com/share/765b9ef345df40ee8e037146c0a4b786)
 
 
 ## Getting Started
@@ -48,7 +50,7 @@ This projects diplays the videos.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/cgcarlosg/Printers-and-Inks-Online-Store/issues).
 
 
 ## Show your support
