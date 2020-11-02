@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Fonts to be used */
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(./Gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Gotham-Rounded-Light';
+  src: url(./GothamRoundedLight/Gotham\ Rounded\ Light.otf);
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Light';
+  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 45\ Light.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Medium';
+  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 65\ Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Bold';
+  src: url(./HelveticaNeueLt/Helvetica\ Neue\ LT\ 75\ Bold.ttf);
+}
+
+/* Colors to be used in the site */
+
+.bckg {
+  background-color: #f5f5f5;
+}
+
+.bckg-red {
+  background-color: #d35266;
+}
+
+.bckg-dark {
+  background-color: #383838 !important;
+}
+
+.bckg-gray {
+  background-color: #888;
+}
+
+.bckg-white {
+  background-color: white;
+}
+
+.fonts-red {
+  color: #d35266 !important;
+}
+
+.fonts-dark {
+  color: #383838;
+}
+
+.fonts-gray {
+  color: #888 !important;
+}
+
+.fonts-white {
+  color: white !important;
+}
+
+/* Navbar */
+
+.logodark {
+  width: 100px;
+  height: 40px;
+}
+
+header,
+main {
+  font-family: 'Helvetica-Neue-Light', Helvetica, arial, sans-serif;
+}
+
+.hoverbtn:hover {
+  background-color: #888 !important;
+}
+
+.hoversgn:hover {
+  cursor: pointer;
+  color: white !important;
+}
+
+.listw {
+  white-space: nowrap;
+}
+
+.topnav {
+  min-width: min-content;
+}
+
+/* Main information of the company */
+
+.titleone {
+  font-size: 24px;
+  font-family: 'Helvetica-Neue-Bold', Helvetica, arial, sans-serif;
+}
+
+.printers,
+.search-cont-btn,
+.search-btn {
+  width: 60%;
+  height: 35px;
+}
+
+.search-cont-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .printers {
+    width: 99%;
+    height: 40px;
+  }
+
+  .search-cont-btn,
+  .search-btn {
+    width: 99%;
+    display: flex;
+    justify-content: start;
+    height: 40px;
+  }
+}
+
+/* Main products - hot ads */
+
+.header-list-detail {
+  font-family: 'Gotham-Rounded-Light', Helvetica, arial, sans-serif;
+}
+
+.gen-info {
+  width: 20%;
+  font-size: 12px;
+  font-family: 'Gotham-Rounded-Light', Helvetica, arial, sans-serif;
+}
+
+.gen-info-two {
+  width: 20%;
+  font-size: 12px;
+  font-family: 'Gotham-Rounded-Light', Helvetica, arial, sans-serif;
+}
+
+.img-little {
+  width: 200px;
+  height: 140px;
+}
+
+.description-item {
+  font-size: 13px;
+  font-family: 'Gotham-Rounded-Light', Helvetica, arial, sans-serif;
+}
+
+.location-p {
+  font-size: 11px;
+  font-family: 'Gotham-Rounded-Light', Helvetica, arial, sans-serif;
+}
+
+.title-listmix {
+  font-family:  'Gotham-Bold', Arial, Helvetica, sans-serif;
+}
+
+.company {
+  display: flex;
+  align-content: flex-end;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25%;
+  width: 75%;
+  font-size: 12px;
+}
+
+.paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  font-size: 12px;
+  display: flex;
+}
+
+.title {
+  border-bottom: solid #d35266 2px;
+}
+
+.copy-right {
+  font-size: 12px;
+  margin-left: 15%;
+}
+
+@media (max-width: 767px) {
+  .title {
+    margin-left: 25%;
+  }
+
+  .lists {
+    margin-left: 25%;
+  }
+
+  .copyright {
+    margin-left: 7%;
+  }
+}
