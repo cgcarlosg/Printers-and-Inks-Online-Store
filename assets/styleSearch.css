@@ -1,17 +1,13 @@
-
-
-/* Main products - hot ads */
-
 .aside-menu {
   display: flex;
   flex-direction: row;
- }
+}
 
 @media (min-width: 768px) {
-.aside-menu {
-  display: flex;
-  flex-direction: column;
- }
+  .aside-menu {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .header-list-detail {

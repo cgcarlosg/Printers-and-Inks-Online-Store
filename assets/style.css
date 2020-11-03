@@ -188,19 +188,12 @@ main {
   z-index: 1000;
 }
 
-
-
 @media (max-width: 767px) {
   .company {
     display: flex;
     align-content: flex-end;
   }
 
-  .socialicons,
-  .copy-r {
-   width: fit-content;
-  }
-  
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -208,22 +201,22 @@ main {
     width: 75%;
     font-size: 12px;
   }
-  
+
   .paragraph {
     text-align: justify;
     text-justify: inter-word;
   }
-  
+
   .lists {
     font-size: 12px;
     display: flex;
     width: 75%;
   }
-  
+
   .title {
     border-bottom: solid #d35266 2px;
   }
-  
+
   .copy-right {
     text-align: justify;
     text-justify: inter-word;
@@ -265,4 +258,3 @@ main {
   text-justify: inter-word;
   font-size: 12px;
 }
-
