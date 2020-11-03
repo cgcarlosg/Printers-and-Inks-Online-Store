@@ -99,7 +99,6 @@ main {
 /* Main information of the company */
 
 .titleone {
-  font-size: 24px;
   font-family: 'Helvetica-Neue-Bold', Helvetica, arial, sans-serif;
 }
 
@@ -189,6 +188,49 @@ main {
   z-index: 1000;
 }
 
+
+
+@media (max-width: 767px) {
+  .company {
+    display: flex;
+    align-content: flex-end;
+  }
+
+  .socialicons,
+  .copy-r {
+   width: fit-content;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    font-size: 12px;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .lists {
+    font-size: 12px;
+    display: flex;
+    width: 75%;
+  }
+  
+  .title {
+    border-bottom: solid #d35266 2px;
+  }
+  
+  .copy-right {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+  }
+}
+
 .company {
   display: flex;
   align-content: flex-end;
@@ -197,20 +239,12 @@ main {
 .footer-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-left: 25%;
-  width: 75%;
   font-size: 12px;
 }
 
 .paragraph {
   text-align: justify;
   text-justify: inter-word;
-}
-
-.footer-info {
-  display: flex;
-  flex-direction: column;
 }
 
 .lists {
@@ -222,21 +256,13 @@ main {
   border-bottom: solid #d35266 2px;
 }
 
-.copy-right {
+.size-bot {
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: justify;
+  text-justify: inter-word;
   font-size: 12px;
-  margin-left: 15%;
 }
 
-@media (max-width: 767px) {
-  .title {
-    margin-left: 25%;
-  }
-
-  .lists {
-    margin-left: 25%;
-  }
-
-  .copyright {
-    margin-left: 7%;
-  }
-}
