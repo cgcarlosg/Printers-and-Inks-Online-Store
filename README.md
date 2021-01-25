@@ -28,9 +28,8 @@ To run this project, you need a computer or a mobile device with any operating s
 
 ### Setup
 To download the project:
-- Select the branch.
-- Click on "CODE" (Top-Right green bottom)
-- select "Download ZIP"
+- open your editor.
+- type git clone https://github.com/cgcarlosg/cgcarlosg.github.io.git.
 - Save it in your desktop folder.
 
 ### Install
